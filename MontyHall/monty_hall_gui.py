@@ -67,10 +67,10 @@ class Game(tk.Frame):
 
         # create text widgets for win statistics
         defaultbg = self.parent.cget('bg')
-        self.unchanged_wins_txt = tk.Text(self.parent, width=20,
+        self.unchanged_wins_txt = tk.Text(self.parent, width=30,
                                           height=1, wrap=tk.WORD, bg=defaultbg,
                                           fg='black', borderwidth=0)
-        self.changed_wins_txt = tk.Text(self.parent, width=20,
+        self.changed_wins_txt = tk.Text(self.parent, width=30,
                                         height=1, wrap=tk.WORD, bg=defaultbg,
                                         fg='black', borderwidth=0)
         
@@ -80,8 +80,8 @@ class Game(tk.Frame):
         c.grid(row=1, column=4, sticky='E', padx=20)
         self.yes.grid(row=2, column=4, sticky='W', padx=20)
         self.no.grid(row=2, column=4, sticky='N', padx=20)
-        self.unchanged_wins_txt.grid(row=1, column=5, columnspan=5)
-        self.changed_wins_txt.grid(row=2, column=5, columnspan=5)
+        self.unchanged_wins_txt.grid(row=1, column=5, columnspan=8)
+        self.changed_wins_txt.grid(row=2, column=5, columnspan=8)
 
     def update_image(self):
         """Update current doors image."""
@@ -144,10 +144,10 @@ class Game(tk.Frame):
 
         # update displayed statistics
         self.unchanged_wins_txt.delete(1.0, 'end')
-        self.unchanged_wins_txt.insert(1.0, 'Unchanged wins = {:d}'
+        self.unchanged_wins_txt.insert(1.0, 'Vitórias sem trocas = {:d}'
                                        .format(self.first_choice_wins))
         self.changed_wins_txt.delete(1.0, 'end')
-        self.changed_wins_txt.insert(1.0, 'Changed wins = {:d}'
+        self.changed_wins_txt.insert(1.0, 'Vitórias com troca = {:d}'
                                      .format(self.pick_change_wins))
         
         # turn off yes/no buttons and clear door choice buttons
