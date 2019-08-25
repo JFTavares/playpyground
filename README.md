@@ -11,8 +11,13 @@ Compartilho aqui os projetos divertidos nos quais trabalho. Não se deixe engana
 ### Rats_breed_race
 Uma forma divertida de aprender algoritmos genéticos. Você é um cientista maluco e quer criar ratos gigantes de cinquenta quilos. Para isso você irá criar em laboratório suas cobaias aplicando mutação genética neles!
 
+fonte: *Impractical python projects*
+
+
 ### Alien detection
 Qual a probabilidade de detectarmos alienígenas a nossa galáxia usando ondas de rádio? Um jeito divertido de trabalhar com estatítistica. Spoiler: menos de 4% de chance, ainda que existissem mais de 15.000 civilações.
+
+fonte: *Impractical python projects*
 
 ### Ball bounce
 Construa um jogo de bounce ball!
@@ -22,6 +27,9 @@ Lembram do Turtle da linguagem de programação [Logos](https://en.wikipedia.org
 
 ### Monty_Hall
 Aprenda sobre estatística.
+
+fonte: *Impractical python projects*
+
 
 ## Contatos
 
