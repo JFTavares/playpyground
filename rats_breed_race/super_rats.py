@@ -6,11 +6,11 @@ import statistics
 
 # CONSTANTS (weights in grams) 
 GOAL = 50000
-NUM_RATS = 20  # number of adult breeding rats in each generation
+NUM_RATS = 50  # number of adult breeding rats in each generation
 INITIAL_MIN_WT = 200
 INITIAL_MAX_WT = 600
 INITIAL_MODE_WT = 300
-MUTATE_ODDS = 0.01
+MUTATE_ODDS = 0.1 #'01'
 MUTATE_MIN = 0.5
 MUTATE_MAX = 1.2
 LITTER_SIZE = 8
