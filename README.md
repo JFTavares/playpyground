@@ -26,7 +26,8 @@ Construa um jogo de bounce ball!
 Lembram do Turtle da linguagem de programação [Logos](https://en.wikipedia.org/wiki/Logo_(programming_language))?
 
 ### Monty_Hall
-Aprenda sobre estatística.
+Aprenda sobre estatística. Este jogo reproduz o pardoxo Monty Hall. Você pode
+ saber mais sobre isso no livro _O andar do bêbado_.
 
 fonte: *Impractical python projects*
 
